@@ -1,0 +1,11 @@
+Person$Builder.class
+com\emreguru\models\PersonOuterClass.class
+Person$1.class
+com\emreguru\models\PersonOuterClass$1.class
+com\emreguru\models\Car$1.class
+PersonOrBuilder.class
+com\emreguru\models\AddressOrBuilder.class
+com\emreguru\models\Car.class
+Person.class
+com\emreguru\models\Car$Builder.class
+com\emreguru\models\CarOrBuilder.class
