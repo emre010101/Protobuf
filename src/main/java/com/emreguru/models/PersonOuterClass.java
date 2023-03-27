@@ -29,6 +29,16 @@ public final class PersonOuterClass {
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Person_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_Dealer_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_Dealer_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_Dealer_ModelEntry_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_Dealer_ModelEntry_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -39,11 +49,16 @@ public final class PersonOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\014person.proto\"8\n\007Address\022\017\n\007postbox\030\001 \001" +
-      "(\005\022\016\n\006street\030\002 \001(\t\022\014\n\004city\030\003 \001(\t\"0\n\003Car\022" +
+      "(\005\022\016\n\006street\030\002 \001(\t\022\014\n\004city\030\003 \001(\t\"P\n\003Car\022" +
       "\014\n\004make\030\001 \001(\t\022\r\n\005model\030\002 \001(\t\022\014\n\004year\030\003 \001" +
-      "(\005\"Q\n\006Person\022\014\n\004name\030\001 \001(\t\022\013\n\003age\030\002 \001(\005\022" +
-      "\031\n\007address\030\003 \001(\0132\010.Address\022\021\n\003car\030\004 \003(\0132" +
-      "\004.CarB\027\n\023com.emreguru.modelsP\001b\006proto3"
+      "(\005\022\036\n\nbody_style\030\004 \001(\0162\n.BodyStyle\"Q\n\006Pe" +
+      "rson\022\014\n\004name\030\001 \001(\t\022\013\n\003age\030\002 \001(\005\022\031\n\007addre" +
+      "ss\030\003 \001(\0132\010.Address\022\021\n\003car\030\004 \003(\0132\004.Car\"_\n" +
+      "\006Dealer\022!\n\005model\030\001 \003(\0132\022.Dealer.ModelEnt" +
+      "ry\0322\n\nModelEntry\022\013\n\003key\030\001 \001(\005\022\023\n\005value\030\002" +
+      " \001(\0132\004.Car:\0028\001**\n\tBodyStyle\022\t\n\005Sedan\020\000\022\t" +
+      "\n\005COUPE\020\001\022\007\n\003SUV\020\002B\027\n\023com.emreguru.model" +
+      "sP\001b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -68,13 +83,25 @@ public final class PersonOuterClass {
     internal_static_Car_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Car_descriptor,
-        new java.lang.String[] { "Make", "Model", "Year", });
+        new java.lang.String[] { "Make", "Model", "Year", "BodyStyle", });
     internal_static_Person_descriptor =
       getDescriptor().getMessageTypes().get(2);
     internal_static_Person_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Person_descriptor,
         new java.lang.String[] { "Name", "Age", "Address", "Car", });
+    internal_static_Dealer_descriptor =
+      getDescriptor().getMessageTypes().get(3);
+    internal_static_Dealer_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_Dealer_descriptor,
+        new java.lang.String[] { "Model", });
+    internal_static_Dealer_ModelEntry_descriptor =
+      internal_static_Dealer_descriptor.getNestedTypes().get(0);
+    internal_static_Dealer_ModelEntry_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_Dealer_ModelEntry_descriptor,
+        new java.lang.String[] { "Key", "Value", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

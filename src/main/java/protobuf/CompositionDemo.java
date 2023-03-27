@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.emreguru.models.Address;
+import com.emreguru.models.BodyStyle;
 import com.emreguru.models.Car;
 import com.emreguru.models.Person;
 
@@ -20,11 +21,13 @@ public class CompositionDemo {
 		Car accord =Car.newBuilder()
 			.setMake("Honda")
 			.setModel("Accord")
+			.setBodyStyleValue(0)
 			.setYear(2020)
 			.build();
 		
 		Car civic =Car.newBuilder()
 				.setMake("Honda")
+				.setBodyStyle(BodyStyle.COUPE)
 				.setModel("Civic")
 				.setYear(2005)
 				.build();

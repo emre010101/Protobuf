@@ -36,24 +36,44 @@ public interface PersonOrBuilder extends
   com.emreguru.models.AddressOrBuilder getAddressOrBuilder();
 
   /**
+   * <pre>
+   *the collection of cars can be used
+   * </pre>
+   *
    * <code>repeated .Car car = 4;</code>
    */
   java.util.List<com.emreguru.models.Car> 
       getCarList();
   /**
+   * <pre>
+   *the collection of cars can be used
+   * </pre>
+   *
    * <code>repeated .Car car = 4;</code>
    */
   com.emreguru.models.Car getCar(int index);
   /**
+   * <pre>
+   *the collection of cars can be used
+   * </pre>
+   *
    * <code>repeated .Car car = 4;</code>
    */
   int getCarCount();
   /**
+   * <pre>
+   *the collection of cars can be used
+   * </pre>
+   *
    * <code>repeated .Car car = 4;</code>
    */
   java.util.List<? extends com.emreguru.models.CarOrBuilder> 
       getCarOrBuilderList();
   /**
+   * <pre>
+   *the collection of cars can be used
+   * </pre>
+   *
    * <code>repeated .Car car = 4;</code>
    */
   com.emreguru.models.CarOrBuilder getCarOrBuilder(

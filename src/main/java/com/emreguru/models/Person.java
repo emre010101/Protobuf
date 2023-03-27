@@ -181,12 +181,20 @@ private static final long serialVersionUID = 0L;
   public static final int CAR_FIELD_NUMBER = 4;
   private java.util.List<com.emreguru.models.Car> car_;
   /**
+   * <pre>
+   *the collection of cars can be used
+   * </pre>
+   *
    * <code>repeated .Car car = 4;</code>
    */
   public java.util.List<com.emreguru.models.Car> getCarList() {
     return car_;
   }
   /**
+   * <pre>
+   *the collection of cars can be used
+   * </pre>
+   *
    * <code>repeated .Car car = 4;</code>
    */
   public java.util.List<? extends com.emreguru.models.CarOrBuilder> 
@@ -194,18 +202,30 @@ private static final long serialVersionUID = 0L;
     return car_;
   }
   /**
+   * <pre>
+   *the collection of cars can be used
+   * </pre>
+   *
    * <code>repeated .Car car = 4;</code>
    */
   public int getCarCount() {
     return car_.size();
   }
   /**
+   * <pre>
+   *the collection of cars can be used
+   * </pre>
+   *
    * <code>repeated .Car car = 4;</code>
    */
   public com.emreguru.models.Car getCar(int index) {
     return car_.get(index);
   }
   /**
+   * <pre>
+   *the collection of cars can be used
+   * </pre>
+   *
    * <code>repeated .Car car = 4;</code>
    */
   public com.emreguru.models.CarOrBuilder getCarOrBuilder(
@@ -847,6 +867,10 @@ private static final long serialVersionUID = 0L;
         com.emreguru.models.Car, com.emreguru.models.Car.Builder, com.emreguru.models.CarOrBuilder> carBuilder_;
 
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public java.util.List<com.emreguru.models.Car> getCarList() {
@@ -857,6 +881,10 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public int getCarCount() {
@@ -867,6 +895,10 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public com.emreguru.models.Car getCar(int index) {
@@ -877,6 +909,10 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public Builder setCar(
@@ -894,6 +930,10 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public Builder setCar(
@@ -908,6 +948,10 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public Builder addCar(com.emreguru.models.Car value) {
@@ -924,6 +968,10 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public Builder addCar(
@@ -941,6 +989,10 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public Builder addCar(
@@ -955,6 +1007,10 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public Builder addCar(
@@ -969,6 +1025,10 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public Builder addAllCar(
@@ -984,6 +1044,10 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public Builder clearCar() {
@@ -997,6 +1061,10 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public Builder removeCar(int index) {
@@ -1010,6 +1078,10 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public com.emreguru.models.Car.Builder getCarBuilder(
@@ -1017,6 +1089,10 @@ private static final long serialVersionUID = 0L;
       return getCarFieldBuilder().getBuilder(index);
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public com.emreguru.models.CarOrBuilder getCarOrBuilder(
@@ -1027,6 +1103,10 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public java.util.List<? extends com.emreguru.models.CarOrBuilder> 
@@ -1038,6 +1118,10 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public com.emreguru.models.Car.Builder addCarBuilder() {
@@ -1045,6 +1129,10 @@ private static final long serialVersionUID = 0L;
           com.emreguru.models.Car.getDefaultInstance());
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public com.emreguru.models.Car.Builder addCarBuilder(
@@ -1053,6 +1141,10 @@ private static final long serialVersionUID = 0L;
           index, com.emreguru.models.Car.getDefaultInstance());
     }
     /**
+     * <pre>
+     *the collection of cars can be used
+     * </pre>
+     *
      * <code>repeated .Car car = 4;</code>
      */
     public java.util.List<com.emreguru.models.Car.Builder> 
