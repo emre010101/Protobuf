@@ -1,8 +1,11 @@
 //proto1 is internal to google
 //proto2 you have to explicitly declare required or
 // optional fields but in 3 everything is required
-
 syntax = "proto3";
+
+import "common/address.proto";
+import "common/car.proto";
+
 
 //this will create other files that you need to work on 
 option java_multiple_files = true;
@@ -10,32 +13,11 @@ option java_multiple_files = true;
 //it will create another package with same files
 option java_package = "com.emreguru.models";
 
-message Address {
-	int32 postbox = 1;
-	string street = 2;
-	string city = 3;
-}
-
-message Car {
-	string make = 1;
-	string model = 2;
-	int32 year = 3;
-	BodyStyle body_style = 4;
-}
 
 message Person {
 	string name = 1;
 	int32 age = 2;
-	Address address = 3;
-	repeated Car car = 4; //the collection of cars can be used
+	common.Address address = 3;
+	repeated common.Car car = 4; //the collection of cars can be used
 }
 
-message Dealer {
-	map<int32, Car> model = 1;
-}
-
-enum BodyStyle {
-	Sedan = 0;
-	COUPE = 1;
-	SUV = 2;
-	}

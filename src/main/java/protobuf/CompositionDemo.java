@@ -32,6 +32,7 @@ public class CompositionDemo {
 				.setYear(2005)
 				.build();
 		
+		/*Collections also can be used*/
 		List<Car> cars = new ArrayList<Car>();
 		cars.add(accord);
 		cars.add(civic);
@@ -40,7 +41,7 @@ public class CompositionDemo {
 			.setName("sam")
 			.setAge(25)
 			/*.addCar(civic)
-			.addCar(accord) if we were are adding them by one by*/
+			.addCar(accord) if we were are adding them one by one*/
 			.addAllCar(cars)
 			.setAddress(address)
 			.build();

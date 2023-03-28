@@ -23,15 +23,15 @@ public interface PersonOrBuilder extends
   int getAge();
 
   /**
-   * <code>.Address address = 3;</code>
+   * <code>.common.Address address = 3;</code>
    */
   boolean hasAddress();
   /**
-   * <code>.Address address = 3;</code>
+   * <code>.common.Address address = 3;</code>
    */
   com.emreguru.models.Address getAddress();
   /**
-   * <code>.Address address = 3;</code>
+   * <code>.common.Address address = 3;</code>
    */
   com.emreguru.models.AddressOrBuilder getAddressOrBuilder();
 
@@ -40,7 +40,7 @@ public interface PersonOrBuilder extends
    *the collection of cars can be used
    * </pre>
    *
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   java.util.List<com.emreguru.models.Car> 
       getCarList();
@@ -49,7 +49,7 @@ public interface PersonOrBuilder extends
    *the collection of cars can be used
    * </pre>
    *
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   com.emreguru.models.Car getCar(int index);
   /**
@@ -57,7 +57,7 @@ public interface PersonOrBuilder extends
    *the collection of cars can be used
    * </pre>
    *
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   int getCarCount();
   /**
@@ -65,7 +65,7 @@ public interface PersonOrBuilder extends
    *the collection of cars can be used
    * </pre>
    *
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   java.util.List<? extends com.emreguru.models.CarOrBuilder> 
       getCarOrBuilderList();
@@ -74,7 +74,7 @@ public interface PersonOrBuilder extends
    *the collection of cars can be used
    * </pre>
    *
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   com.emreguru.models.CarOrBuilder getCarOrBuilder(
       int index);

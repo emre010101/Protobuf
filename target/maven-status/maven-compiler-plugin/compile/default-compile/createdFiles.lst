@@ -1,4 +1,5 @@
 com\emreguru\models\PersonOuterClass.class
+com\emreguru\models\CarOuterClass.class
 com\emreguru\models\BodyStyle$1.class
 com\emreguru\models\Dealer.class
 protobuf\MapDemo.class
@@ -6,9 +7,12 @@ PersonOuterClass.class
 com\emreguru\models\Address$1.class
 com\emreguru\models\CarOrBuilder.class
 Person$Builder.class
+com\emreguru\models\CarOuterClass$1.class
+com\emreguru\models\AddressOuterClass.class
 com\emreguru\models\Address.class
 PersonOrBuilder.class
 protobuf\CompositionDemo.class
+protobuf\DefaultValueDemo.class
 protobuf\PersonDemo.class
 com\emreguru\models\Car.class
 com\emreguru\models\BodyStyle.class
@@ -16,6 +20,7 @@ com\emreguru\models\PersonOrBuilder.class
 Person.class
 protobuf\PerformanceTest.class
 com\emreguru\models\Car$Builder.class
+com\emreguru\models\DealerOuterClass$1.class
 PersonOuterClass$1.class
 com\emreguru\models\Dealer$Builder.class
 com\emreguru\models\Dealer$ModelDefaultEntryHolder.class
@@ -29,4 +34,6 @@ com\emreguru\models\Address$Builder.class
 com\emreguru\models\AddressOrBuilder.class
 com\emreguru\models\Dealer$1.class
 com\emreguru\models\DealerOrBuilder.class
+com\emreguru\models\AddressOuterClass$1.class
+com\emreguru\models\DealerOuterClass.class
 com\emreguru\models\Person$1.class

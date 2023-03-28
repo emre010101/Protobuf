@@ -12,7 +12,7 @@ public class PerformanceTest {
 	public static void main(String[] args) {
 		
 		
-		// json
+		// Json
 		JPerson person = new JPerson();
 		person.setName("sam");
 		person.setAge(10);

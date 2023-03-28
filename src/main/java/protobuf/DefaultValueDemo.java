@@ -14,7 +14,10 @@ public class DefaultValueDemo {
 				"City : " + person.getAddress().getCity()
 				);
 		/*However proto file has this nice feture
-		 * in which we can figure out if it's null or not*/
+		 * in which we can figure out if it's null or not
+		 * has method only works on data type you give not on 
+		 * primitive data types such as strings and integers
+		 * hasName or hasAge wouldn't work*/
 		System.out.println(
 				person.hasAddress()
 				);
