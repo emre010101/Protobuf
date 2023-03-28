@@ -11,7 +11,7 @@ import "common/car.proto";
 option java_multiple_files = true;
 
 //it will create another package with same files
-option java_package = "com.emreguru.models";
+option java_package = "com.emrek.models";
 
 
 message Person {
