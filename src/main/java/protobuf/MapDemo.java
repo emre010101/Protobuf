@@ -1,8 +1,8 @@
 package protobuf;
 
-import com.emreguru.models.BodyStyle;
-import com.emreguru.models.Car;
-import com.emreguru.models.Dealer;
+import com.emrek.models.BodyStyle;
+import com.emrek.models.Car;
+import com.emrek.models.Dealer;
 
 public class MapDemo {
 	

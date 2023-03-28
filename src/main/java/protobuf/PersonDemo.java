@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import com.emreguru.models.Person;
+import com.emrek.models.Person;
 import java.nio.file.Files;
 
 public class PersonDemo {

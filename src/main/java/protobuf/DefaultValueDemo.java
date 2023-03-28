@@ -1,6 +1,6 @@
 package protobuf;
 
-import com.emreguru.models.Person;
+import com.emrek.models.Person;
 
 public class DefaultValueDemo {
 

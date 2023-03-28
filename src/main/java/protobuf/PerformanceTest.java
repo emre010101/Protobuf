@@ -1,7 +1,8 @@
 package protobuf;
 
-import com.emreguru.models.Person;
+import com.emrek.models.Person;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.protobuf.Int32Value;
 import com.google.protobuf.InvalidProtocolBufferException;
 
 import json.JPerson;
@@ -34,7 +35,7 @@ public class PerformanceTest {
 		// protobuf
 		Person sam = Person.newBuilder()
 				.setName("sam")
-				.setAge(10)
+				.setAge(Int32Value.newBuilder().setValue(15).build())
 				.build();
 		
 		

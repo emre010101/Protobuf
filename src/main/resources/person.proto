@@ -5,6 +5,7 @@ syntax = "proto3";
 
 import "common/address.proto";
 import "common/car.proto";
+import "google/protobuf/wrappers.proto";
 
 
 //this will create other files that you need to work on 
@@ -16,7 +17,9 @@ option java_package = "com.emrek.models";
 
 message Person {
 	string name = 1;
-	int32 age = 2;
+	//Primitive int32 type is replaced with proto wrapper
+	//wrapper types gives access to message types features
+	google.protobuf.Int32Value age = 2;
 	common.Address address = 3;
 	repeated common.Car car = 4; //the collection of cars can be used
 }

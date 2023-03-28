@@ -3,10 +3,11 @@ package protobuf;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.emreguru.models.Address;
-import com.emreguru.models.BodyStyle;
-import com.emreguru.models.Car;
-import com.emreguru.models.Person;
+import com.emrek.models.Address;
+import com.emrek.models.BodyStyle;
+import com.emrek.models.Car;
+import com.emrek.models.Person;
+import com.google.protobuf.Int32Value;
 
 public class CompositionDemo {
 	
@@ -39,7 +40,8 @@ public class CompositionDemo {
 		
 		Person sam = Person.newBuilder()
 			.setName("sam")
-			.setAge(25)
+			//.setAge(25) if we were using normal primitive int32
+			.setAge(Int32Value.newBuilder().setValue(25).build())
 			/*.addCar(civic)
 			.addCar(accord) if we were are adding them one by one*/
 			.addAllCar(cars)
@@ -47,5 +49,12 @@ public class CompositionDemo {
 			.build();
 		
 		System.out.println(sam);
+		
+		System.out.println(
+				/*If it was primitive hasAge would'nt work*/
+			sam.hasAge()
+			);
+		
+	
 	}
 }

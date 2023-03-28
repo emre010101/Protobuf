@@ -31,6 +31,8 @@ com\emreguru\models\Car$1.class
 com\emrek\models\Address$1.class
 com\emrek\models\CredentialsOuterClass$1.class
 Person$1.class
+protobuf\OneofDemo$1.class
+protobuf\OneofDemo.class
 com\emreguru\models\AddressOrBuilder.class
 com\emrek\models\PhoneOTPOrBuilder.class
 com\emreguru\models\AddressOuterClass$1.class
