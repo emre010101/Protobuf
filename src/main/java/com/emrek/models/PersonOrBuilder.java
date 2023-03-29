@@ -18,14 +18,29 @@ public interface PersonOrBuilder extends
       getNameBytes();
 
   /**
+   * <pre>
+   *Primitive int32 type is replaced with proto wrapper
+   *wrapper types gives access to message types features
+   * </pre>
+   *
    * <code>.google.protobuf.Int32Value age = 2;</code>
    */
   boolean hasAge();
   /**
+   * <pre>
+   *Primitive int32 type is replaced with proto wrapper
+   *wrapper types gives access to message types features
+   * </pre>
+   *
    * <code>.google.protobuf.Int32Value age = 2;</code>
    */
   com.google.protobuf.Int32Value getAge();
   /**
+   * <pre>
+   *Primitive int32 type is replaced with proto wrapper
+   *wrapper types gives access to message types features
+   * </pre>
+   *
    * <code>.google.protobuf.Int32Value age = 2;</code>
    */
   com.google.protobuf.Int32ValueOrBuilder getAgeOrBuilder();

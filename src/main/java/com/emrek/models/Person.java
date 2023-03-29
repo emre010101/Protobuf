@@ -158,18 +158,33 @@ private static final long serialVersionUID = 0L;
   public static final int AGE_FIELD_NUMBER = 2;
   private com.google.protobuf.Int32Value age_;
   /**
+   * <pre>
+   *Primitive int32 type is replaced with proto wrapper
+   *wrapper types gives access to message types features
+   * </pre>
+   *
    * <code>.google.protobuf.Int32Value age = 2;</code>
    */
   public boolean hasAge() {
     return age_ != null;
   }
   /**
+   * <pre>
+   *Primitive int32 type is replaced with proto wrapper
+   *wrapper types gives access to message types features
+   * </pre>
+   *
    * <code>.google.protobuf.Int32Value age = 2;</code>
    */
   public com.google.protobuf.Int32Value getAge() {
     return age_ == null ? com.google.protobuf.Int32Value.getDefaultInstance() : age_;
   }
   /**
+   * <pre>
+   *Primitive int32 type is replaced with proto wrapper
+   *wrapper types gives access to message types features
+   * </pre>
+   *
    * <code>.google.protobuf.Int32Value age = 2;</code>
    */
   public com.google.protobuf.Int32ValueOrBuilder getAgeOrBuilder() {
@@ -747,12 +762,22 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         com.google.protobuf.Int32Value, com.google.protobuf.Int32Value.Builder, com.google.protobuf.Int32ValueOrBuilder> ageBuilder_;
     /**
+     * <pre>
+     *Primitive int32 type is replaced with proto wrapper
+     *wrapper types gives access to message types features
+     * </pre>
+     *
      * <code>.google.protobuf.Int32Value age = 2;</code>
      */
     public boolean hasAge() {
       return ageBuilder_ != null || age_ != null;
     }
     /**
+     * <pre>
+     *Primitive int32 type is replaced with proto wrapper
+     *wrapper types gives access to message types features
+     * </pre>
+     *
      * <code>.google.protobuf.Int32Value age = 2;</code>
      */
     public com.google.protobuf.Int32Value getAge() {
@@ -763,6 +788,11 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
+     * <pre>
+     *Primitive int32 type is replaced with proto wrapper
+     *wrapper types gives access to message types features
+     * </pre>
+     *
      * <code>.google.protobuf.Int32Value age = 2;</code>
      */
     public Builder setAge(com.google.protobuf.Int32Value value) {
@@ -779,6 +809,11 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *Primitive int32 type is replaced with proto wrapper
+     *wrapper types gives access to message types features
+     * </pre>
+     *
      * <code>.google.protobuf.Int32Value age = 2;</code>
      */
     public Builder setAge(
@@ -793,6 +828,11 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *Primitive int32 type is replaced with proto wrapper
+     *wrapper types gives access to message types features
+     * </pre>
+     *
      * <code>.google.protobuf.Int32Value age = 2;</code>
      */
     public Builder mergeAge(com.google.protobuf.Int32Value value) {
@@ -811,6 +851,11 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *Primitive int32 type is replaced with proto wrapper
+     *wrapper types gives access to message types features
+     * </pre>
+     *
      * <code>.google.protobuf.Int32Value age = 2;</code>
      */
     public Builder clearAge() {
@@ -825,6 +870,11 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *Primitive int32 type is replaced with proto wrapper
+     *wrapper types gives access to message types features
+     * </pre>
+     *
      * <code>.google.protobuf.Int32Value age = 2;</code>
      */
     public com.google.protobuf.Int32Value.Builder getAgeBuilder() {
@@ -833,6 +883,11 @@ private static final long serialVersionUID = 0L;
       return getAgeFieldBuilder().getBuilder();
     }
     /**
+     * <pre>
+     *Primitive int32 type is replaced with proto wrapper
+     *wrapper types gives access to message types features
+     * </pre>
+     *
      * <code>.google.protobuf.Int32Value age = 2;</code>
      */
     public com.google.protobuf.Int32ValueOrBuilder getAgeOrBuilder() {
@@ -844,6 +899,11 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
+     * <pre>
+     *Primitive int32 type is replaced with proto wrapper
+     *wrapper types gives access to message types features
+     * </pre>
+     *
      * <code>.google.protobuf.Int32Value age = 2;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
