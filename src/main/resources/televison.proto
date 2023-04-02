@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+import "common/address.proto";
+import "common/car.proto";
+//import "google/protobuf/wrappers.proto";
+
+//this will create other files that you need to work on 
+option java_multiple_files = true;
+
+//it will create another package with same files
+option java_package = "com.emrek.models";
+
+
+//v1 API
+message Televison {
+	string brand = 1;
+	int32 year = 2;
+}
+
+//v2 API /*
+message Televison {
+	string brand = 1;
+	
+	/*Important for name convention for other version to not match*/
+	reserved 5;
+	reserved "year", "model";
+	
+	int32 model = 2;
+	Type type = 3;
+}
+
+enum Type {
+	HD = 0;
+	UHD = 1;
+	OLED = 2;
+}*/

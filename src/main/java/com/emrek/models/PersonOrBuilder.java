@@ -8,10 +8,18 @@ public interface PersonOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
+   * <pre>
+   *1 is a tag that's how the proto file maps the contents 
+   * </pre>
+   *
    * <code>string name = 1;</code>
    */
   java.lang.String getName();
   /**
+   * <pre>
+   *1 is a tag that's how the proto file maps the contents 
+   * </pre>
+   *
    * <code>string name = 1;</code>
    */
   com.google.protobuf.ByteString
@@ -60,7 +68,7 @@ public interface PersonOrBuilder extends
 
   /**
    * <pre>
-   *the collection of cars can be used
+   *Collection of cars can be used
    * </pre>
    *
    * <code>repeated .common.Car car = 4;</code>
@@ -69,7 +77,7 @@ public interface PersonOrBuilder extends
       getCarList();
   /**
    * <pre>
-   *the collection of cars can be used
+   *Collection of cars can be used
    * </pre>
    *
    * <code>repeated .common.Car car = 4;</code>
@@ -77,7 +85,7 @@ public interface PersonOrBuilder extends
   com.emrek.models.Car getCar(int index);
   /**
    * <pre>
-   *the collection of cars can be used
+   *Collection of cars can be used
    * </pre>
    *
    * <code>repeated .common.Car car = 4;</code>
@@ -85,7 +93,7 @@ public interface PersonOrBuilder extends
   int getCarCount();
   /**
    * <pre>
-   *the collection of cars can be used
+   *Collection of cars can be used
    * </pre>
    *
    * <code>repeated .common.Car car = 4;</code>
@@ -94,7 +102,7 @@ public interface PersonOrBuilder extends
       getCarOrBuilderList();
   /**
    * <pre>
-   *the collection of cars can be used
+   *Collection of cars can be used
    * </pre>
    *
    * <code>repeated .common.Car car = 4;</code>

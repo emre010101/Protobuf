@@ -4,6 +4,13 @@
 package com.emrek.models;
 
 /**
+ * <pre>
+ *1 - 15 is 1byte
+ *16 - 2047 is 2bytes
+ *therefore use 1 byte for frequently used tags
+ *and use 2 bytes less used tags
+ * </pre>
+ *
  * Protobuf type {@code Person}
  */
 public  final class Person extends
@@ -124,6 +131,10 @@ private static final long serialVersionUID = 0L;
   public static final int NAME_FIELD_NUMBER = 1;
   private volatile java.lang.Object name_;
   /**
+   * <pre>
+   *1 is a tag that's how the proto file maps the contents 
+   * </pre>
+   *
    * <code>string name = 1;</code>
    */
   public java.lang.String getName() {
@@ -139,6 +150,10 @@ private static final long serialVersionUID = 0L;
     }
   }
   /**
+   * <pre>
+   *1 is a tag that's how the proto file maps the contents 
+   * </pre>
+   *
    * <code>string name = 1;</code>
    */
   public com.google.protobuf.ByteString
@@ -216,7 +231,7 @@ private static final long serialVersionUID = 0L;
   private java.util.List<com.emrek.models.Car> car_;
   /**
    * <pre>
-   *the collection of cars can be used
+   *Collection of cars can be used
    * </pre>
    *
    * <code>repeated .common.Car car = 4;</code>
@@ -226,7 +241,7 @@ private static final long serialVersionUID = 0L;
   }
   /**
    * <pre>
-   *the collection of cars can be used
+   *Collection of cars can be used
    * </pre>
    *
    * <code>repeated .common.Car car = 4;</code>
@@ -237,7 +252,7 @@ private static final long serialVersionUID = 0L;
   }
   /**
    * <pre>
-   *the collection of cars can be used
+   *Collection of cars can be used
    * </pre>
    *
    * <code>repeated .common.Car car = 4;</code>
@@ -247,7 +262,7 @@ private static final long serialVersionUID = 0L;
   }
   /**
    * <pre>
-   *the collection of cars can be used
+   *Collection of cars can be used
    * </pre>
    *
    * <code>repeated .common.Car car = 4;</code>
@@ -257,7 +272,7 @@ private static final long serialVersionUID = 0L;
   }
   /**
    * <pre>
-   *the collection of cars can be used
+   *Collection of cars can be used
    * </pre>
    *
    * <code>repeated .common.Car car = 4;</code>
@@ -468,6 +483,13 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
+   * <pre>
+   *1 - 15 is 1byte
+   *16 - 2047 is 2bytes
+   *therefore use 1 byte for frequently used tags
+   *and use 2 bytes less used tags
+   * </pre>
+   *
    * Protobuf type {@code Person}
    */
   public static final class Builder extends
@@ -691,6 +713,10 @@ private static final long serialVersionUID = 0L;
 
     private java.lang.Object name_ = "";
     /**
+     * <pre>
+     *1 is a tag that's how the proto file maps the contents 
+     * </pre>
+     *
      * <code>string name = 1;</code>
      */
     public java.lang.String getName() {
@@ -706,6 +732,10 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
+     * <pre>
+     *1 is a tag that's how the proto file maps the contents 
+     * </pre>
+     *
      * <code>string name = 1;</code>
      */
     public com.google.protobuf.ByteString
@@ -722,6 +752,10 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
+     * <pre>
+     *1 is a tag that's how the proto file maps the contents 
+     * </pre>
+     *
      * <code>string name = 1;</code>
      */
     public Builder setName(
@@ -735,6 +769,10 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *1 is a tag that's how the proto file maps the contents 
+     * </pre>
+     *
      * <code>string name = 1;</code>
      */
     public Builder clearName() {
@@ -744,6 +782,10 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     *1 is a tag that's how the proto file maps the contents 
+     * </pre>
+     *
      * <code>string name = 1;</code>
      */
     public Builder setNameBytes(
@@ -1051,7 +1093,7 @@ private static final long serialVersionUID = 0L;
 
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1065,7 +1107,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1079,7 +1121,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1093,7 +1135,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1114,7 +1156,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1132,7 +1174,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1152,7 +1194,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1173,7 +1215,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1191,7 +1233,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1209,7 +1251,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1228,7 +1270,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1245,7 +1287,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1262,7 +1304,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1273,7 +1315,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1287,7 +1329,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1302,7 +1344,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1313,7 +1355,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>
@@ -1325,7 +1367,7 @@ private static final long serialVersionUID = 0L;
     }
     /**
      * <pre>
-     *the collection of cars can be used
+     *Collection of cars can be used
      * </pre>
      *
      * <code>repeated .common.Car car = 4;</code>

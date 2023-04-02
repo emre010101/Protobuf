@@ -16,11 +16,19 @@ option java_package = "com.emrek.models";
 
 
 message Person {
-	string name = 1;
+	//1 - 15 is 1byte
+	//16 - 2047 is 2bytes
+	//therefore use 1 byte for frequently used tags
+	//and use 2 bytes less used tags
+
+	string name = 1; //1 is a tag that's how the proto file maps the contents 
+	
 	//Primitive int32 type is replaced with proto wrapper
 	//wrapper types gives access to message types features
 	google.protobuf.Int32Value age = 2;
 	common.Address address = 3;
+	
+	//Collection of cars can be used
 	repeated common.Car car = 4; //the collection of cars can be used
 }
 
