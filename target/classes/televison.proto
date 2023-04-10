@@ -19,15 +19,15 @@ message Televison {
 
 //v2 API /*
 message Televison {
-	string brand = 1;*/
+	string brand = 1;
 	
 	/*Important for name convention for other version to not match*/
 	/*
 	reserved 5;
 	reserved "year", "model";
 	
-	int32 model = 2;
-	Type type = 3;
+	int32 model = 2;*/
+	//Type type = 3;
 }
 
 enum Type {
